@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yato.Model", "yato.Model\yato.Model.csproj", "{17617447-A3A8-41F6-BF7E-399F2A486E17}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{30FF448C-C63B-4071-8973-CE5249EFA74A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BAF5BDE5-4879-457A-A463-74D45C299609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yato.Model", "src\yato.Model\yato.Model.csproj", "{9CFE49F1-D9AE-40FC-92E9-4C354632714C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{17617447-A3A8-41F6-BF7E-399F2A486E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17617447-A3A8-41F6-BF7E-399F2A486E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17617447-A3A8-41F6-BF7E-399F2A486E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17617447-A3A8-41F6-BF7E-399F2A486E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFE49F1-D9AE-40FC-92E9-4C354632714C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFE49F1-D9AE-40FC-92E9-4C354632714C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFE49F1-D9AE-40FC-92E9-4C354632714C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFE49F1-D9AE-40FC-92E9-4C354632714C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CFE49F1-D9AE-40FC-92E9-4C354632714C} = {30FF448C-C63B-4071-8973-CE5249EFA74A}
 	EndGlobalSection
 EndGlobal
